@@ -1,0 +1,24 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "A simple API micro-service that returns the size of a file",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmdaniels/file-metadata.git"
+  },
+  "author": "cmdaniels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmdaniels/file-metadata/issues"
+  },
+  "homepage": "https://github.com/cmdaniels/file-metadata#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "multer": "^1.1.0"
+  }
+}
